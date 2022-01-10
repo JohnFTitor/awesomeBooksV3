@@ -48,7 +48,9 @@ Once you have downloaded the code, run ```npm install``` to install all the depe
 
 👤 **Daniel Ufeli**
 
-- GitHub: [@danielufeli](https://github.com/danielufeli)
+- GitHub: [@danielufeli](https://github.com/danielufeli) 
+- Twitter: [@danielufeli](https://twitter.com/danielufeli) 
+- LinkedIn: [Daniel](https://www.linkedin.com/in/danielcode/) 
 
 ## 🤝 Contributing
 
