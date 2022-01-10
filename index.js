@@ -1,5 +1,6 @@
 import Book from './modules/Book.js';
 import { addBookToLibrary, renderBooks } from './modules/AddBook.js';
+import startTime from './modules/Date.js';
 
 const inputTitle = document.querySelector('#title');
 const inputAuthor = document.querySelector('#author');
@@ -49,3 +50,5 @@ aTags.forEach((a) => {
     });
   });
 });
+
+startTime();
