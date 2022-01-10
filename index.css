@@ -1,9 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+
 body {
   font-family: 'Comic Neue', cursive;
   margin: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 p {
@@ -22,14 +23,14 @@ h2 {
   height: 100vh;
   overflow: hidden;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr;
-      grid-template-columns: 1fr;
+  grid-template-columns: 1fr;
   -ms-grid-rows: auto auto 1fr auto auto;
-      grid-template-rows: auto auto 1fr auto auto;
-      grid-template-areas: 'top-decoration' 'header' 'main' 'footer' 'bottom-decoration';
+  grid-template-rows: auto auto 1fr auto auto;
+  grid-template-areas: 'top-decoration' 'header' 'main' 'footer' 'bottom-decoration';
   border: 4px solid black;
 }
 
@@ -37,13 +38,11 @@ h2 {
   -ms-grid-row: 1;
   -ms-grid-column: 1;
   grid-area: top-decoration;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   text-align: center;
   border-bottom: 4px solid black;
   background-color: #d5a7da;
@@ -56,14 +55,12 @@ h2 {
 }
 
 .browser-navigation {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   padding: 5px 50px;
 }
 
@@ -75,7 +72,7 @@ h2 {
 .address-bar {
   text-align: left;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   margin: 15px;
   padding: 10px;
   width: 60vw;
@@ -93,15 +90,13 @@ header {
 }
 
 .nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
 .nav-spaced {
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .nav p {
@@ -110,7 +105,7 @@ header {
 
 .page {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   text-decoration: none;
   color: black;
   font-size: 24px;
@@ -137,13 +132,11 @@ button {
 }
 
 form {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 form h2 {
@@ -160,7 +153,7 @@ form input {
   font-family: 'Comic Neue', cursive;
   font-size: 20px;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   padding: 5px;
   color: black;
   font-weight: 600;
@@ -169,7 +162,7 @@ form input {
 
 form button {
   -ms-flex-item-align: end;
-      align-self: flex-end;
+  align-self: flex-end;
 }
 
 form span {
@@ -183,19 +176,7 @@ form span {
 button:hover {
   cursor: pointer;
   -webkit-transform: scale(1.1);
-          transform: scale(1.1);
-}
-
-::-webkit-input-placeholder {
-  color: black;
-}
-
-:-ms-input-placeholder {
-  color: black;
-}
-
-::-ms-input-placeholder {
-  color: black;
+  transform: scale(1.1);
 }
 
 ::placeholder {
@@ -211,7 +192,7 @@ form > * {
 
 div {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 h1 {
@@ -221,16 +202,14 @@ h1 {
 }
 
 section {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .mainApp {
@@ -238,7 +217,7 @@ section {
   -ms-grid-column: 1;
   grid-area: main;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   overflow: auto;
 }
 
@@ -252,15 +231,13 @@ section {
 }
 
 .book-Card {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   padding: 10px;
 }
 
@@ -274,11 +251,11 @@ section {
   font-size: 20px;
   font-weight: 600;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   padding: 5px 10px;
   border: 3px solid black;
   -webkit-box-shadow: 4px 4px black;
-          box-shadow: 4px 4px black;
+  box-shadow: 4px 4px black;
 }
 
 .book-Card .remove:hover {
@@ -292,11 +269,11 @@ section {
   font-size: 20px;
   font-weight: 600;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   padding: 5px 10px;
   border: 3px solid black;
   -webkit-box-shadow: 4px 4px black;
-          box-shadow: 4px 4px black;
+  box-shadow: 4px 4px black;
 }
 
 .btn:hover {
@@ -306,20 +283,20 @@ section {
 
 .book-display {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   padding-bottom: 50px;
 }
 
 .add-books {
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .contact {
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   list-style: circle;
   font-weight: bold;
 }
@@ -346,7 +323,7 @@ footer {
   -ms-grid-column: 1;
   grid-area: footer;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   border: 4px solid black;
   margin: 15px 30px;
   padding: 10px 20px;
@@ -357,15 +334,13 @@ footer {
   -ms-grid-row: 5;
   -ms-grid-column: 1;
   grid-area: bottom-decoration;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
   background-color: #d5a7da;
   border-top: 4px solid black;
 }
@@ -380,9 +355,11 @@ footer {
   .browser-navigation img {
     display: none;
   }
+
   .contact h2 {
     font-size: 50px;
   }
+
   .contact p,
   .contact ul {
     font-size: 30px;
@@ -393,6 +370,7 @@ footer {
   .contact h2 {
     font-size: 50px;
   }
+
   .contact p,
   .contact ul {
     font-size: 20px;
@@ -403,12 +381,12 @@ footer {
   .nav {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     padding-top: 10px;
   }
+
   #first {
     border-left: 3px solid black;
   }
 }
-/*# sourceMappingURL=styles.css.map */
