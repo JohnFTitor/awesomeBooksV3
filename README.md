@@ -10,11 +10,11 @@
 
 - HTML
 - CSS
-- SASS
 - JavaScript
-## Live Demo
 
-[Live Demo](https://melaniesigrid.github.io/awesomeBooks/)
+## Requirements
+
+Node.js must be installed in the computer
 
 ## Getting Started
 
@@ -23,6 +23,8 @@ To get a local copy up and running follow these simple example steps.
 - Clone this repository with git clone```git@github.com:melaniesigrid/awesomeBooks.git``` using your terminal or command line.
 - Change to the project directory by entering : <br>
 ```cd awesomeBooks``` in the terminal
+
+Once you have downloaded the code, run ```npm install``` to install all the dependencies of the project for it to work properly.
 
 ## Authors
 
@@ -37,6 +39,16 @@ To get a local copy up and running follow these simple example steps.
 - GitHub: [@JohnFTitor](https://github.com/JohnFTitor)
 - Twitter: [@johnftitor](https://twitter.com/johnftitor)
 - LinkedIn: [Andres](https://www.linkedin.com/in/andresfelipe117/?locale=en_US)
+
+👤 **Eduardo Sancho**
+
+- GitHub: [@eduardosancho](https://github.com/eduardosancho)
+- Twitter: [@sanchitobless](https://twitter.com/sanchitobless)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/eduardo-sancho-043641181/)
+
+👤 **Daniel Ufeli**
+
+- GitHub: [@danielufeli](https://github.com/danielufeli)
 
 ## 🤝 Contributing
 
