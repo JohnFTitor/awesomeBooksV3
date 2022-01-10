@@ -4,7 +4,7 @@ const inputTitle = document.querySelector('#title');
 const inputAuthor = document.querySelector('#author');
 const indicator = document.querySelector('#indicator');
 
-function checkRepetition(book) {
+const checkRepetition = (book) => { //function checkREpetition(book)
   for (let i = 0; i < Book.collection.length; i += 1) {
     const currentBook = Book.collection[i];
     if (currentBook.title.toLowerCase() === book.title.toLowerCase()
@@ -16,7 +16,7 @@ function checkRepetition(book) {
   return true;
 }
 
-function addBookToLibrary() {
+const addBookToLibrary = () => {
   const inputTitleValue = inputTitle.value;
   const inputAuthorValue = inputAuthor.value;
   const book = new Book(inputTitleValue.trim(), inputAuthorValue.trim());
