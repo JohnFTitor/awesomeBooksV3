@@ -6,6 +6,6 @@ const startTime = () => {
     DateTime.DATETIME_MED,
   );
   setTimeout(startTime, 1000);
-}
+};
 
 export default startTime;
